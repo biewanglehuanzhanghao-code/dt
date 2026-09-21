@@ -1,0 +1,252 @@
+{
+  "maps": [
+    {
+      "id": "third_holyland_church",
+      "name": "第三神地·教堂",
+      "image": "assets/third-holyland-church.png"
+    }
+  ],
+  "locations": [
+    {
+      "id": "holy_pool",
+      "name": "蓄水池与维护用房",
+      "mapId": "third_holyland_church",
+      "type": "设施",
+      "icon": "💧",
+      "environment": "高处蓄水区，靠近外围维护建筑",
+      "security": "严格",
+      "x": 50,
+      "y": 8
+    },
+    {
+      "id": "armory",
+      "name": "军械库",
+      "mapId": "third_holyland_church",
+      "type": "军用设施",
+      "icon": "🛡️",
+      "environment": "武器与护具保管区",
+      "security": "严格",
+      "x": 18,
+      "y": 20
+    },
+    {
+      "id": "equipment_workshop",
+      "name": "装备工坊",
+      "mapId": "third_holyland_church",
+      "type": "工坊",
+      "icon": "⚒️",
+      "environment": "装备维护与修理区域",
+      "security": "一般",
+      "x": 43,
+      "y": 20
+    },
+    {
+      "id": "supply_warehouse",
+      "name": "军需仓库",
+      "mapId": "third_holyland_church",
+      "type": "仓储",
+      "icon": "📦",
+      "environment": "军需物资集中存放区域",
+      "security": "严格",
+      "x": 77,
+      "y": 20
+    },
+    {
+      "id": "knight_dormitory",
+      "name": "骑士宿舍",
+      "mapId": "third_holyland_church",
+      "type": "住宿",
+      "icon": "🛏️",
+      "environment": "骑士日常休息与起居区域",
+      "security": "一般",
+      "x": 16,
+      "y": 37
+    },
+    {
+      "id": "knight_hq",
+      "name": "骑士团本部",
+      "mapId": "third_holyland_church",
+      "type": "核心建筑",
+      "icon": "🏰",
+      "environment": "骑士团行政、议事与指挥中心",
+      "security": "极严",
+      "x": 50,
+      "y": 43
+    },
+    {
+      "id": "soldier_barracks",
+      "name": "士兵营房",
+      "mapId": "third_holyland_church",
+      "type": "住宿",
+      "icon": "🏠",
+      "environment": "驻军士兵住宿区域",
+      "security": "一般",
+      "x": 82,
+      "y": 35
+    },
+    {
+      "id": "training_ground",
+      "name": "操练场",
+      "mapId": "third_holyland_church",
+      "type": "训练",
+      "icon": "🎯",
+      "environment": "基础操练与射击训练区域",
+      "security": "一般",
+      "x": 20,
+      "y": 52
+    },
+    {
+      "id": "arena",
+      "name": "演武场",
+      "mapId": "third_holyland_church",
+      "type": "训练",
+      "icon": "⚔️",
+      "environment": "大型公开演练与比试场地",
+      "security": "一般",
+      "x": 79,
+      "y": 48
+    },
+    {
+      "id": "stable",
+      "name": "马厩与车场",
+      "mapId": "third_holyland_church",
+      "type": "交通",
+      "icon": "🐎",
+      "environment": "马匹、车辆与出行准备区域",
+      "security": "一般",
+      "x": 18,
+      "y": 67
+    },
+    {
+      "id": "garrison_mess",
+      "name": "驻军食堂",
+      "mapId": "third_holyland_church",
+      "type": "生活设施",
+      "icon": "🍲",
+      "environment": "驻军集中用餐区域",
+      "security": "宽松",
+      "x": 44,
+      "y": 64
+    },
+    {
+      "id": "military_infirmary",
+      "name": "军医室",
+      "mapId": "third_holyland_church",
+      "type": "医疗",
+      "icon": "✚",
+      "environment": "驻军诊疗与伤员休养区域",
+      "security": "一般",
+      "x": 65,
+      "y": 63
+    },
+    {
+      "id": "guard_room",
+      "name": "卫兵值守室",
+      "mapId": "third_holyland_church",
+      "type": "岗哨",
+      "icon": "🗝️",
+      "environment": "守卫轮值、交接与临时待命区域",
+      "security": "严格",
+      "x": 84,
+      "y": 69
+    },
+    {
+      "id": "main_gate",
+      "name": "驻军区大门",
+      "mapId": "third_holyland_church",
+      "type": "出入口",
+      "icon": "🚪",
+      "environment": "驻军区主要出入口",
+      "security": "严格",
+      "x": 50,
+      "y": 89
+    }
+  ],
+  "characters": [
+    {
+      "id": "amokwendeqie",
+      "name": "阿莫克温·德·契埃",
+      "role": "骑士长",
+      "mapId": "third_holyland_church",
+      "locationId": "knight_hq",
+      "location": "骑士团本部 · 骑士长办公室",
+      "activity": "办公",
+      "destination": "暂无",
+      "status": "办公中",
+      "companions": "无",
+      "distance": "未计算",
+      "encounter": "暂无",
+      "x": 50,
+      "y": 43,
+      "routine": [
+        {
+          "locationId": "knight_hq",
+          "label": "骑士团本部 · 骑士长办公室",
+          "activity": "办公",
+          "status": "忙碌",
+          "hours": [
+            8,
+            18
+          ],
+          "weight": 4,
+          "durationTurns": 2
+        },
+        {
+          "locationId": "training_ground",
+          "activity": "检查操练",
+          "status": "执勤",
+          "hours": [
+            8,
+            18
+          ],
+          "weight": 2,
+          "durationTurns": 1
+        },
+        {
+          "locationId": "main_gate",
+          "activity": "巡视岗哨",
+          "status": "警戒",
+          "hours": [
+            6,
+            22
+          ],
+          "weight": 2,
+          "durationTurns": 1
+        },
+        {
+          "locationId": "garrison_mess",
+          "activity": "用餐",
+          "status": "休息",
+          "hours": [
+            11,
+            14
+          ],
+          "weight": 5,
+          "durationTurns": 1
+        },
+        {
+          "locationId": "garrison_mess",
+          "activity": "用餐",
+          "status": "休息",
+          "hours": [
+            18,
+            20
+          ],
+          "weight": 5,
+          "durationTurns": 1
+        },
+        {
+          "locationId": "knight_dormitory",
+          "activity": "休息",
+          "status": "休息",
+          "hours": [
+            18,
+            8
+          ],
+          "weight": 4,
+          "durationTurns": 3
+        }
+      ]
+    }
+  ]
+}

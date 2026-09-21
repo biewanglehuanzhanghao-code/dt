@@ -1,0 +1,13 @@
+{
+  "display_name": "World Map / 世界地图",
+  "loading_order": 50,
+  "js": "world-map.js",
+  "css": "world-map.css",
+  "author": "ChatGPT + User",
+  "version": "0.4.2",
+  "auto_update": false,
+  "requires": [],
+  "optional": [],
+  "dependencies": [],
+  "homePage": "https://github.com/"
+}
